@@ -73,6 +73,8 @@
     border:none ;
     text-align: center;
     color: white;
+    padding: 0.5px;
+
 }
 .square1 {
     text-decoration: line-through;
