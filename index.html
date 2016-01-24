@@ -8,47 +8,55 @@
     <link rel="stylesheet" type="text/css" href="main.css" />
 </head>
 <body class="st">
-    <div class="style1">
-        <input class="textarea" type="text" value="Назва товару">
-        <button type="button" class="button" >Додати</button>
-    </div>
+<div class="style1">
+    <input class="textarea" type="text" value="Назва товару">
+    <button type="button" class="button" >Додати</button>
+</div>
 
-    <div class="style2"><u>Залишилося</u></div></div>
-    <div class="style1">
-        <input class="text-input" type="text" value="Морозиво">
-        <div class="text">Pomidory</div>
-        <button class="button" type="button">+</button>
-        <input  class="counter" type="text" value="1"  >
-        <button class="button" type="button">-</button>
-        <button class="button" type="button">Куплено</button>
-        <button class="button" type="button">x</button>
-    </div>
-    <div class="style2">
-        <span class="square"  >Морозиво <span>3</span></span>
-        <span class="square"  >Цукерки <span>3</span></span>
-        <span class="square"  >Яблука <span>3</span></span>
+<div class="style2"><u>Залишилося</u></div></div>
+<div id="div1" class="style1">
+    <div id="text1" class="text">Морозиво</div>
+    <input id="text2" class="text-input" type="text" value="Морозиво">
+    <button id="buttonPlus1" class="button" type="button">+</button>
+    <span id="coun1" class="counter" >1</span>
+    <button id="buttonMinus1" class="button" type="button">-</button>
+    <button id="buy1" class="button" type="button">Куплено</button>
+    <button id="noBuy1" class="button" type="button">Не куплено</button>
 
-    </div>
-    <div class="style1"> <input class="text" type="text" value="Цукерки" >
-        <button class="button" type="button">+</button>
-        <input class="counter" type="text" value="1">
-        <button class="button"type="button">-</button>
-        <button class="button" type="button">Куплено</button>
-        <button class="button" type="button">x</button>
-    </div>
+    <button id="del1" class="button-delete"  type="button">x</button>
+</div>
+<div class="style2">
+    <span class="square"  >Морозиво <span>3</span></span>
+    <span class="square"  >Цукерки <span>3</span></span>
+    <span class="square"  >Яблука <span>3</span></span>
 
-    <div class="style2"><u>Куплено</u></div>
-    <div class="style1"> <input class="text" type="text" value="Яблука" >
-        <button class="button" type="button">+</button>
-        <input class="counter" type="text" value="1">
-        <button class="button" type="button">-</button>
-        <button class="button" type="button">Куплено</button>
-        <button class="button" type="button">x</button>
-    </div>
-    <div class="style2">
-        <input  class="square1" size="5" type="text"   value="Яблука" >
-    </div>
-    <script	type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js">	</script>
-    <script	type="text/javascript" src="js/main.js">	</script>
+</div>
+<div id="div2" class="style1">
+    <div id="text3" class="text">Цукерки</div>
+    <input id="text4" class="text-input" type="text" value="Цукерки" >
+    <button id="buttonPlus2" class="button" type="button">+</button>
+    <span id="coun2" class="counter" >1</span>
+    <button id="buttonMinus2" class="button"type="button">-</button>
+    <button id="buy2" class="button" type="button">Куплено</button>
+    <button id="noBuy2" class="button" type="button">Не куплено</button>
+    <button id="del2" class="button-delete" type="button">x</button>
+</div>
+
+<div class="style2"><u>Куплено</u></div>
+<div id="div3" class="style1">
+    <div id="text5" class="text">Яблука</div>
+    <input id="text6" class="text-input" type="text" value="Яблука" >
+    <button id="buttonPlus3" class="button" type="button">+</button>
+    <span id="coun3" class="counter" >1</span>
+    <button id="buttonMinus3" class="button" type="button">-</button>
+    <button id="buy3" class="button" type="button">Куплено</button>
+    <button id="noBuy3" class="button" type="button">Не куплено</button>
+    <button id="del3" class="button-delete" type="button">x</button>
+</div>
+<div class="style2">
+    <span class="square"  ><s>Яблука</s> <span><s>3</s></span></span>
+</div>
+<script	type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js">	</script>
+<script	type="text/javascript" src="js/main.js">	</script>
 </body>
 </html>
