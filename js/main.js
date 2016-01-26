@@ -8,11 +8,50 @@ $(function() {
     $('#noBuy1').hide();
     $('#noBuy2').hide();
     $('#noBuy3').hide();
+    $('#buttonPlus1').click(function () {
+        var num = $(this).parent().find(".counter").text();
+        num = parseInt(num);
+        $(this).parent().find(".counter").text(++num);
+        $("#n1").text(num);
+    });
+    $('#buttonPlus2').click(function () {
+        var num = $(this).parent().find(".counter").text();
+        num = parseInt(num);
+        $(this).parent().find(".counter").text(++num);
+        $("#n1").text(num);
+    });
+    $('#buttonPlus3').click(function () {
+        var num = $(this).parent().find(".counter").text();
+        num = parseInt(num);
+        $(this).parent().find(".counter").text(++num);
+        $("#n2").text(num);
+    });
+    $('#buttonMinus1').click(function () {
+        var num = $(this).parent().find(".counter").text();
+        num = parseInt(num);
+        $(this).parent().find(".counter").text(--num);
+        $("#n2").text(num);
+        if(num == 1){
+                (".number").disabled = true;
+        }
+    });
+    $('#buttonMinus2').click(function () {
+        var num = $(this).parent().find(".counter").text();
+        num = parseInt(num);
+        $(this).parent().find(".counter").text(--num);
+        $("#n3").text(num);
+    });
+    $('#buttonMinus3').click(function () {
+        var num = $(this).parent().find(".counter").text();
+        num = parseInt(num);
+        $(this).parent().find(".counter").text(--num);
+        $("#n3").text(num);
+    });
     $('#text1').click(function () {
         $('#text1').hide();
         $('#text2').show()
     });
-     $('#text2').click(function () {
+    $('#text1').click(function () {
         $('#text1').show();
         $('#text2').hide()
     });
@@ -95,6 +134,21 @@ $(function() {
     $('#del3').click(function() {
         $('#div3').hide();
     });
+
+   /*function addItem(title){-->
+            var node = $(ITEM_TEMPLATE);
+            var parent = $('<div id="segment state-ready"  style="display:none;"></div>');
+            var cont = true;
+
+                $('#add').click(function(){
+                    $('.textarea').val();
+                    var n_v =$('.textarea').val();
+                    var node =$(n_v);
+                    var ITEM_TEMPLATE = $('.div1').html();
+                    function addItem(title){
+                        var node=$(ITEM_TEMPLATE);
+                        node.find(".textarea").text();
+                    } */
 
 });
 
