@@ -34,7 +34,10 @@
     box-shadow: 4px -4px 3px #29b6b5;
 
 }
-.textarea {
+.box{
+    display: inline-block;
+}
+.area {
     width:80%;
     height:30px;
     resize: none;
@@ -44,12 +47,46 @@
     float: left;
 }
 .button {
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#29b6b5));
+    -webkit-border-radius: 30px;
+    margin-top: 15px;
+    border: 2px solid #29b6b5;
+    color: white;
+}
+.addButton{
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#29b6b5));
+    -webkit-border-radius: 30px;
+    margin-top: 15px;
+    border: 2px solid #29b6b5;
+    color: white;
+}
+.button-plus {
     background: -webkit-gradient(linear,0 0, 0 100%, from(#ffffff), to(#29b6b5));
     -webkit-border-radius: 30px ;
     margin-top: 15px;
     border:2px solid #29b6b5 ;
     color: white;
-
+}
+.button-minus {
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#29b6b5));
+    -webkit-border-radius: 30px;
+    margin-top: 15px;
+    border: 2px solid #29b6b5;
+    color: white;
+}
+.button-buy {
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#29b6b5));
+    -webkit-border-radius: 30px;
+    margin-top: 15px;
+    border: 2px solid #29b6b5;
+    color: white;
+}
+.button-not-buy {
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#29b6b5));
+    -webkit-border-radius: 30px;
+    margin-top: 15px;
+    border: 2px solid #29b6b5;
+    color: white;
 }
 .button-delete {
     background: -webkit-gradient(linear,0 0, 0 100%, from(#ffffff), to(#29b6b5));
